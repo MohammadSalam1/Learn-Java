@@ -16,9 +16,13 @@ public class initVar {
         int a, b = 3, c = 4, d;
 
         //there is also dynamic initialization
-        double radius = 4;
-        double height = 5;
+        double radius = 4, height = 5;
         double volume = 3.1416 * radius * radius * height;
+        /*
+        the value of volume will show
+        after the program is run
+        it uses other variables such as radius and height
+        */
         System.out.println("The volume is " + volume);
     }
 }
