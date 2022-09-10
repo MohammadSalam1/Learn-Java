@@ -37,8 +37,7 @@ public class CalcProj {
                 break;
         }
 
-        System.out.println();
-
+        System.out.println(results);
 
 
     }
