@@ -1,4 +1,5 @@
 //Currency converter
+
 import java.util.*;
 import java.text.*;
 
@@ -20,7 +21,7 @@ public class CurrencyConverter {
         amount = sc.nextFloat();
 
         //amount conversion
-        if (code == 1){
+        if (code == 1) {
 
             pound = amount * 12;
             System.out.println("Your " + amount + " pound is: " + f.format(pound) + " sek");
@@ -38,8 +39,6 @@ public class CurrencyConverter {
         }
         System.out.println();
         System.out.println("Thanks for using our conversion app!");
-
-
 
 
     }
