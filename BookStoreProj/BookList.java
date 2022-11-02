@@ -4,9 +4,10 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class BookList {
-    public void bookLibrary() {
+    static void bookLibrary() {
 
         ArrayList<String> books = new ArrayList<String>();
+        ArrayList<Integer> booksNm = new ArrayList<Integer>();
         Scanner bookChoice = new Scanner(System.in);
         Scanner newBook = new Scanner(System.in);
 
@@ -26,10 +27,13 @@ public class BookList {
         books.remove(bookName); // remove the chosen book from the list
         System.out.println("The Remaining books are:\n" + books);
 
-        //adding new book to the array
-        System.out.println("What books did you bring in?");
-        String addBook = newBook.nextLine();
-        System.out.println("the new list of books are:\n" + books.add(addBook));
+
+        while (true) {
+            System.out.println("Do you have a book to donate:\n" + books);
+            books.add(newBook.next());
+            System.out.println(books);
+        }
+
 
     }
 }

@@ -1,7 +1,7 @@
 package BookStoreProj;
 
 public class BookItems {
-    public void bookAtt() {
+    static void bookAtt() {
 
 
     }
