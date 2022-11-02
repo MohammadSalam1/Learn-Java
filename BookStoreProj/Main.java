@@ -1,9 +1,9 @@
-package Projects;
+package BookStoreProj;
 
-import java.util.ArrayList; //needed to create a list of books
-import java.util.Scanner; //allows UI to happen
+import java.util.ArrayList;
+import java.util.Scanner;
 
-public class OnlineBookstore {
+public class Main {
     public static void main(String[] args) {
 
         ArrayList<String> books = new ArrayList<String>();
@@ -33,7 +33,6 @@ public class OnlineBookstore {
         System.out.println("the new list of books are:\n" + books.add(addBook));
 
 
-
-
     }
 }
+
